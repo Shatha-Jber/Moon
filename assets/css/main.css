@@ -1,0 +1,10 @@
+:root{
+    --maincolor:black;
+}
+
+.nav-icon{
+    color:#595667;
+}
+.navbar-nav .nav-link.active{
+    color: #595667;
+}
