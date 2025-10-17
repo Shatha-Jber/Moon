@@ -1,10 +1,70 @@
 :root{
     --maincolor:black;
+  
+    --mainfont:  "Inter", sans-serif;
+    --font-2:"EB Garamond", serif;
 }
 
+/* navbar */
 .nav-icon{
     color:#595667;
 }
 .navbar-nav .nav-link.active{
     color: #595667;
 }
+/* end navbar */
+
+/* hero */
+.hero{
+    background-image: url(./../img/hero-img/flat-lay-composition-different-sized-plates\ 1.webp);
+    background-size: cover;
+}
+.hero-2{
+    background-color: #827066;
+   width: 420px;
+    height: 100%;
+    margin-left:140px;
+
+}
+.hero-btn{
+    color: #827066;
+border:none;
+width:220px ;
+height: 40px;
+margin-top:41px;
+}
+.hero-btn:hover{
+    background-color:#b9ada6;
+    color: aliceblue;
+}
+.hero-2 p{
+    margin-top: 42px;
+    margin-bottom:20px;
+    font-family:var(--mainfont);
+}
+.hero-2 h1{
+    font-family:var(--font-2);
+}
+/* end hero */
+
+  .hero-section {
+    background-color: #A6948D; /* لون البلوكة البنية */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    font-family:'EB Garamond', serif;
+  }
+
+  .hero-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
