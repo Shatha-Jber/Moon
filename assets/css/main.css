@@ -1,6 +1,6 @@
 :root{
-    --maincolor:black;
-  
+
+  --maincolor:#3A3845;
     --mainfont:"Inter", sans-serif;
     --font-2:"EB Garamond", serif;
 }
@@ -47,7 +47,7 @@
 
   .hero-btn {
     background-color: white;
-    color:#827066;
+    color:var(--maincolor);
     border: none;
     padding: 10px 30px;
     margin-top: 20px;
@@ -67,10 +67,33 @@ padding:80px 0;
 
 
 .card-text{
-    color:#3A3845 ;
+    color:var(--maincolor);
     font-size: 20px;
     margin-top:23px;
     font-family:var(--mainfont);
     text-transform: uppercase;
 
+}
+.offers-left p{
+   font-family:var(--mainfont);
+   color: var(--maincolor);
+}
+.offers-left h2{
+   font-family:var(--font-2);
+    color: var(--maincolor);
+    margin-top:60px;
+}
+.offers-left{
+    background-color:#E5E5E5 ;
+height: 100%;
+}
+.offers-left a{
+   font-family:var(--mainfont);
+   text-decoration: underline;
+    color: var(--maincolor);
+    padding-bottom:10px;
+}
+.offers-right img{
+   height:280px;
+    width:100%;
 }
