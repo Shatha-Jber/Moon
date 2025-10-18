@@ -79,7 +79,7 @@ padding:80px 0;
 }
 .offers-left p{
    font-family:var(--mainfont);
-   color: var(--maincolor);
+   color: var(--color2);
 }
 .offers-left h2{
    font-family:var(--font-2);
@@ -103,9 +103,75 @@ height: 100%;
 }
 /* end offer*/
 
+.our-history{
+  margin-bottom:30px;
+  margin-top:30px;
+}
+.history2 img{ 
+   width: 100%;
+  height: auto;
+}
+.history3 img{ 
+   width: 100%;
+  height: auto;
+}
+.history1 p{
+   font-family:var(--mainfont);
+   color: var(--color3);
+}
+.history1 h2{
+   font-family:var(--font-2);
+    color: var(--maincolor);
+    margin-top:60px;
+}
+.history1{
+    background-color:#E5E5E5 ;
+height: 100%;
+}
+.history1 a{
+   font-family:var(--mainfont);
+   text-decoration: underline;
+    color: var(--maincolor);
+    padding-bottom:10px;
+           text-transform: uppercase;
+}
+
+.history4 p{
+   font-family:var(--mainfont);
+   color: var(--color3);
+}
+.history4 h2{
+   font-family:var(--font-2);
+    color: var(--maincolor);
+    margin-top:60px;
+}
+.history4{
+    background-color:#E5E5E5 ;
+height: 100%;
+}
+.history4 a{
+   font-family:var(--mainfont);
+   text-decoration: underline;
+    color: var(--maincolor);
+    padding-bottom:10px;
+           text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*ourblog */
 .ourblog{
-    margin-top:30px;
+    margin-top:80px;
+
 }
 .ourblog-left p{
    font-family:var(--mainfont);
