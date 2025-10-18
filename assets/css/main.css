@@ -1,8 +1,11 @@
 :root{
 
   --maincolor:#3A3845;
+  --color2:#807F86;
+  --color3:#595667;
     --mainfont:"Inter", sans-serif;
     --font-2:"EB Garamond", serif;
+    
 }
 
 /* navbar */
@@ -92,8 +95,57 @@ height: 100%;
    text-decoration: underline;
     color: var(--maincolor);
     padding-bottom:10px;
+           text-transform: uppercase;
 }
 .offers-right img{
    height:280px;
     width:100%;
 }
+/* end offer*/
+
+/*ourblog */
+.ourblog{
+    margin-top:30px;
+}
+.ourblog-left p{
+   font-family:var(--mainfont);
+   color: var(--color3);
+}
+.ourblog-left .tit2 h2{
+   font-family:var(--font-2);
+    color: var(--maincolor);
+    text-transform: uppercase;
+    font-size:30px;
+
+}
+.ourblog-left .tit1 h2{
+font-family:var(--mainfont);
+    color: var(--color2);
+    text-transform: uppercase;
+font-size:15px;
+margin-top: 54px;
+}
+.ourblog-left{
+    background-color:#E5E5E5 ;
+height: 100%;
+}
+.ourblog-left a{
+   font-family:var(--mainfont);
+   text-decoration: underline;
+    color: var(--color3);
+    padding-bottom:10px;
+       text-transform: uppercase;
+font-size:15px;
+
+}
+.ourblog-right img{
+   height:280px;
+    width:100%;
+}
+ .ourblog-title h1{
+    font-size:30px;
+   font-family:var(--font-2);
+   color: var(--maincolor);
+   
+}
+/* end ourblog*/
