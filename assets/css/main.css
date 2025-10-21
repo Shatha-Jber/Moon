@@ -301,7 +301,41 @@ font-family:var(--font-2);
 margin-bottom:59px;
 }
 
-
-
-
 /* end  new arrivals */
+/* Sign up  */
+.p-Sign-up{
+    color: var(--color3);
+    font-family: var(--mainfont);
+}
+.h2-Sign-up{
+    color: var(--maincolor);
+    font-family: var(--font-2);
+    font-size: 28px;}
+
+.form-Sign-up{
+    border: none;    
+      border-bottom: 1px solid #333; 
+         text-align: center;
+          outline:none;
+          height:40px;
+          width:389px ;
+align-items: center;
+}
+
+.form-Sign-up:focus {
+  border-color: #8B4513; 
+  box-shadow: 0 0 0 4px rgba(139, 69, 19, 0.4); 
+}
+.btn-Sign-up{
+    font-family: var(--mainfont);
+  text-transform: uppercase;
+  border-radius: 0;
+  color: var(--maincolor);
+
+}
+.btn-Sign-up:hover{
+background-color: #827066;
+border:none;
+}
+
+/*end  Sign up  */
