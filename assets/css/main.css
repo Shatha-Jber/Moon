@@ -146,6 +146,10 @@ font-family:var(--font-2);
      font-size:30px;
    margin-bottom: 48px;
 }
+.Best-sellers-card-btn6{
+    margin-top: 22px;
+    
+}
 /* history */
 .our-history{
   margin-bottom:30px;
@@ -250,3 +254,54 @@ font-size:15px;
   margin-bottom: 48px;
 }
 /* end ourblog */
+/* new arrivals */
+.new-arrivals{
+    margin-top: 80px;
+}
+.new-arrivals-card-btn{
+    width:255px;
+     border-radius: 0 ;
+       text-transform: uppercase;
+       margin-bottom:20px;
+       
+}
+.new-arrivals-card-btn:hover{
+   background-color: #827066;
+   border-color: #827066;
+}
+.new-arrivals-card-title{
+    color: var(--maincolor);
+    font-family:var(--mainfont);
+    font-size:15px;
+      text-transform: uppercase;
+      margin-top:24px;
+}
+.new-arrivals-card-span{
+    color: var(--maincolor);
+}
+.new-arrivals-card-span{
+    color: var(--maincolor);
+}
+.new-arrivals-card-text{
+    color:var(--color2);
+    font-size:14px;
+    font-family:var(--mainfont);
+    margin-bottom:38px;
+    margin-top: 24px;
+}
+.new-arrivals h1{
+font-family:var(--font-2);
+  text-transform: uppercase;
+  color:var(--maincolor);
+     font-size:30px;
+   margin-bottom: 48px;
+}
+
+ .new-arrivals-c4{
+margin-bottom:59px;
+}
+
+
+
+
+/* end  new arrivals */
