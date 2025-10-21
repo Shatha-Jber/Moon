@@ -5,7 +5,7 @@
   --color3:#595667;
     --mainfont:"Inter", sans-serif;
     --font-2:"EB Garamond", serif;
-    
+    --color4:#bdbbbb;
 }
 
 /* navbar */
@@ -339,3 +339,69 @@ border:none;
 }
 
 /*end  Sign up  */
+
+/* footer */
+.footer{
+    background-color: var(--maincolor);
+}
+.footer-btn{
+    border-radius: 0;
+    font-family: var(--mainfont);
+    width:160px ;
+    height: 41px;
+    margin-bottom:102px;
+}
+.footer-btn:hover{
+color: #464358;
+}
+.footer-top-left p{
+    font-size: 14px;
+    color:var(--color4);
+    font-family:var(--mainfont) ;
+}
+.footer-top-left img{
+    margin-top:48px;
+    margin-bottom: 24px;
+}
+  
+    
+  .footer-top-right{
+    padding-left:80px;
+    padding-top:60px;
+  }
+  .footer-top-right1{
+    margin-bottom:20px;
+  }
+   .footer-top-right a{
+text-decoration: none;
+font-size:14px;
+font-family:var(--mainfont);
+color: var(--color4);
+   }
+ .footer-top-right h2{
+    color:#FFFFFF;
+    font-family: var(--mainfont);
+     text-transform: uppercase;
+     font-size:16px;
+     margin-bottom:32px;
+   }
+   .footer-bottom{
+    padding-bottom: 40px;
+   align-items: center;
+   text-align: center;
+   margin-top:20px;
+   }
+   
+     .footer-bottom a {
+text-decoration: none;
+color: #A6A6A8;
+  font-family: var(--mainfont); 
+  font-size:12px;
+     }
+     .footer-bottom span{
+       color: #A6A6A8;
+       font-family: var(--mainfont);
+         font-size:12px;
+     }
+
+/* - end footer */
