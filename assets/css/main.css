@@ -425,3 +425,69 @@ color: #A6A6A8;
 }
 
 /* end about moon */
+
+/* history */
+.about-information{
+  margin-bottom:30px;
+  margin-top:30px;
+}
+.about-information2 img{ 
+   width: 100%;
+  height: auto;
+}
+.about-information3 img{ 
+   width: 100%;
+  height: auto;
+}
+.about-information6 img{ 
+   width: 100%;
+  height: auto;
+}
+.about-information1 p{
+   font-family:var(--mainfont);
+   color: var(--color3);
+}
+.about-information1 span{
+   font-family:var(--font-2);
+    color: var(--maincolor);
+    
+    margin-bottom: 24px;
+       font-size:28px;
+}
+.about-information1 {
+     background-color:#F7F6F5 ;
+height: 100%;
+}
+
+.about-information4 p{
+   font-family:var(--mainfont);
+   color: var(--color3);
+}
+.about-information4 span{
+   font-family:var(--font-2);
+    color: var(--maincolor);
+    margin-top:60px;
+       font-size:28px;
+}
+.about-information4 {
+      background-color:#F7F6F5 ;
+height: 100%;
+}
+
+.about-information5 p{
+   font-family:var(--mainfont);
+   color: var(--color3);
+}
+.about-information5 span{
+   font-family:var(--font-2);
+    color: var(--maincolor);
+    margin-top:60px;
+    font-size:28px;
+}
+.about-information5 {
+    background-color:#F7F6F5 ;
+height: 100%;
+}
+
+
+/* end history */
