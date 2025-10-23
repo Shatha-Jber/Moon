@@ -63,6 +63,7 @@
 .Product-types{
 padding:80px 0;
 }
+
 .Product-types-card img {
   width: 100%;
   height: auto;
@@ -78,6 +79,7 @@ padding:80px 0;
     text-transform: uppercase;
 
 }
+
 /* end Product types  */
 
 /*  offers */
@@ -110,6 +112,7 @@ height: 100%;
 .Best-sellers{
     margin-top: 80px;
 }
+
 .Best-sellers-card-btn{
     width:255px;
      border-radius: 0 ;
@@ -150,6 +153,7 @@ font-family:var(--font-2);
     margin-top: 22px;
     
 }
+
 /* history */
 .our-history{
   margin-bottom:30px;
@@ -490,4 +494,30 @@ height: 100%;
 }
 
 
-/* end history */
+/*  */
+.How-we-works{
+    padding-top: 80px;
+}
+.How-we-works-right{
+    margin-left:60px;
+
+}
+.How-we-works-right h1{
+    font-family: var(--font-2);
+        text-transform: uppercase;
+margin-bottom: 24px;
+   color: var(--maincolor);
+}
+.How-we-works-right h2{
+    text-align: left;
+    font-size:18px;
+    margin-bottom: 24px;
+    font-family: var(--mainfont);
+    color: var(--maincolor);
+}
+.How-we-works-right p{
+    text-align: left;
+    margin-bottom:30px;
+color: var(--color3);
+font-family: var(--mainfont);
+}
