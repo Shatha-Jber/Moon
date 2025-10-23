@@ -404,4 +404,24 @@ color: #A6A6A8;
          font-size:12px;
      }
 
-/* - end footer */
+/*  end footer */
+
+/*   ABOUT */
+
+/* about moon */
+.about-moon{
+    padding-top:120px;
+}
+.about-moon h1{
+    font-family: var(--font-2);
+    color: var(--maincolor);
+    font-size:36px;
+    text-transform: uppercase;
+}
+.about-moon p{
+    color: var(--color3);
+    font-family: var(--mainfont);
+    font-size:16px;
+}
+
+/* end about moon */
