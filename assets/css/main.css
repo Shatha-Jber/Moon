@@ -661,3 +661,41 @@ margin-bottom:20px;
   width:29px;
   height:27x;
 }
+/*  contact form  */
+.contact-form{
+    padding: 20px 0 80px 0 ;
+}
+.contact-form-box{
+    height: 50px;
+}
+.contact-form-Message{
+height: 160px;
+}
+.contact-form-btn{
+    width: 100%;
+         color: #fff;
+  border: none;
+        background-color: var(--maincolor);
+           padding: 14px;
+           
+}
+  .contact-form-btn:hover {
+      background-color:#827066;
+      color: #fff;
+    }
+      .contact-form .form-label {
+    font-size: 14px;
+    color: var(--maincolor);
+    font-family: var(--mainfont);
+     
+    }
+    .contact-form-info textarea {
+            border: 2px solid var(--maincolor);
+              padding-left: 15px;  
+    }
+    
+     .contact-form-info input {
+            border: 2px solid var(--maincolor);
+             padding-left: 15px;  
+    }
+/*  end contact form  */
