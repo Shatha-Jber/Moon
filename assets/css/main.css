@@ -567,9 +567,11 @@ padding:80px 0;
      font-size: 36px;
      margin-bottom: 48px;
 }
+/*end Our Team  */
 
 /*  CONTACT  */
-/*end Our Team  */
+
+/*touch-with-us*/
 .touch-with-us{
     padding-top: 100px ;
     padding-bottom:50px;
@@ -597,4 +599,65 @@ padding:80px 0;
     font-family: var(--mainfont);
     font-size:16px;
 }
-/*touch-with-us*/
+
+/* hero contact */
+.hero-contact{
+    background-image: url(./../img/contact-img/contact-hero.webp);
+    background-size: cover;
+}
+
+  .hero-contact-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+.hero-contact-2{
+    background-color:var(--maincolor);
+    height: 100vh;
+    margin-left:140px;
+
+}
+.hero-contact-2 img{
+    margin-top: 118px;
+    margin-bottom: 40px;
+}
+
+
+.contact-icon-list {
+  list-style: none;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  gap: 15px;              
+  padding: 0;
+  margin: 0 auto;
+}
+
+.contact-icon-list i{
+    background-color: #C69B7B;
+    padding:5px;
+  color: #FFFDFB;
+}
+.contact-icon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.hero-contact-2 h1 {
+    font-family: var(--font-2);
+    font-size:36px;
+color: #FFFDFB;
+ text-transform: uppercase;
+    margin-bottom:60px;
+}
+.hero-contact-2 h2 {
+    font-family: var(--mainfont);
+    font-size:14px;
+color: #FFFDFB;
+margin-bottom:20px;
+}
+.fec{
+  width:29px;
+  height:27x;
+}
