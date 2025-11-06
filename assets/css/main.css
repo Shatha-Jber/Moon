@@ -701,7 +701,7 @@ height: 160px;
 /*  end contact form  */
 
 /* BLOG PAGE */
-/*ourblog */
+
 /*blog  hero*/
 .blog-hero{
     padding-top: 30px;
@@ -733,15 +733,128 @@ height: 160px;
  height:100vh;
 }
 /* end  blog hero*/
+/*blog parts */
+.blog-parts{
+padding-top: 120px;
+margin-top:100px;
+}
+.blog-parts-card-info{
+margin-top: 24px;
+margin-bottom: 24px;
+ 
+}
+.blog-parts-card-info i{
+  background-color:#E5E5E5;
+  color: #595667;
+  padding:8px 8px;
+  font-size:12px;
+  border-radius:50%;
+  margin-right:10px;
 
+}
+.blog-parts-card-info span{
+ color: #595667;
+ font-family: var(--mainfont);
+ margin-right: 10px;
+ 
+}
+.blog-parts-card-info .blog-line{
+ color:var(--color4);
 
+}
+.blog-parts-card-title{
+color: var(--maincolor);
+font-size: 18px;
+font-family: var(--mainfont);
+margin-top: 24px;
+margin-bottom: 24px;
+  
+}
+.blog-parts-card-text{
+color: var(--color3);
+font-size: 14px;
+font-family: var(--mainfont);
+margin-top: 24px;
+padding-bottom:24px;
 
+}
+/* end blog parts */
+/* blog-right */
+.blog-search button {
+   background-color: white;
+    border: none;
+    padding: 10px 10px;
+    outline: none;
+    margin-left:5px;
+}
 
+.blog-search form {
+    border: 1px solid var(--maincolor);
+}
 
+.blog-search input {
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.blog-right{
+  padding-top: 80px;
+}
+.Posts-left img{
+width: 119px;
+height: 80px;
+}
+.Posts-right h2{
+  padding:10px;
+font-size:14px;
+color:#3A3845;
+font-family: var(--mainfont);
+}
+.blog-right h1{
+  font-size:24px;
+  color: var(--maincolor);
+   text-transform: uppercase;
+   margin-top:60px;
+   margin-bottom: 40px;
+}
+ .Categories h2{
+  font-size:24px;
+  font-family:var(--mainfont);
+  text-transform: uppercase;
+  color: var(--maincolor);
+ }
+ .Categories ul{
+  font-size:14px;
+  font-family:var(--mainfont);
+  color:#374151;
+  list-style: none;
+ }
+ .Tags-Post button {
+  margin-bottom:10px;
+  color: #595667;
+  border-radius: 0;
+  font-family: var(--mainfont);
+ }
 
-
-
-
-
-
-/* end ourblog */
+.blog-Page-number button{
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+color: var(--maincolor);
+}
+.blog-Page-number button:hover{
+  
+ background-color: var(--maincolor);
+}
+.blog-Page-number {
+  display: flex;
+ 
+  justify-content: center;
+align-items: center;
+text-align: center;
+margin-bottom: 50px;
+margin-top: 70px;
+}
+.location-section {
+  height:150px;
+}
