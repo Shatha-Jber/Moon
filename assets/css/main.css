@@ -855,4 +855,113 @@ text-align: center;
 margin-bottom: 50px;
 margin-top: 70px;
 }
+/*                 SHOP PAGE             */
+/*  shop filte*/
+.shop-filter{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.shop-filter-btn {
+padding:5px;
 
+}
+.shop-filter .offcanvas-title {
+  font-size: 14px;
+  color:var(--maincolor);
+  font-family: var(--mainfont);
+}
+.Category h2{
+  font-family: var(--mainfont);
+  color:#3A3845 ;
+  font-size: 14px;
+}
+.form-shop-filter label{
+  color: #374151;
+  font-family: var(--mainfont);
+  font-size: 14px;
+}
+.Price-Range h2{
+  font-family: var(--mainfont);
+  color:#3A3845 ;
+  font-size: 14px;
+}
+.color button{
+padding: 9px;
+padding-left: 11px;
+
+}
+.color h2{
+  font-family: var(--mainfont);
+  color:#3A3845 ;
+  font-size: 14px;
+}
+.filter-color1{
+height: 10px;
+width: 10px;
+border-radius:0 ;
+  background-color: #ffffff;
+}
+
+.filter-color2{
+  border:none;
+  background-color: #C69B7B;
+}
+
+.filter-color3{
+  border:none;
+  background-color: #CCD8CE;
+}
+.filter-color4{
+  border:none;
+  background-color: #B4555D;
+}
+.filter-color5{
+  border:none;
+  background-color: #9B92A1;
+}
+.filter-color input{
+  width: 30px;
+  height: 30px;
+  border-radius: 0px;
+
+}
+
+.Tags h2{
+  font-family: var(--mainfont);
+  color:#3A3845 ;
+  font-size: 14px;
+}
+.Shop-items{
+  padding-bottom: 60px;
+}
+
+.Shop-items-number button{
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+color: var(--maincolor);
+}
+.Shop-items-number button:hover{
+  
+ background-color: var(--maincolor);
+}
+.Shop-items-number {
+  display: flex;
+ 
+  justify-content:right;
+align-items: center;
+text-align: center;
+margin-bottom: 50px;
+margin-top: 70px;
+}
+.shop-breadcrumb{
+  padding-top: 100px;
+}
+.shop-breadcrumb a{
+  color: #636267;
+}
+/*  end shop filte*/
+hr{
+ 
+  border: 1px solid rgb(181, 177, 177);
+}
