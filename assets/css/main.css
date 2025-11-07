@@ -976,3 +976,129 @@ hr{
 .marin-Plate{
   padding-bottom: 40px;
 }
+.marin-Plate-star{
+color: #C69B7B;
+}
+.marin-Plate-right h2{
+font-size: 20px;
+color: var(--maincolor);
+font-family: var(--mainfont);
+}
+.marin-Plate-det1 p{
+  color: #C69B7B;
+}
+.marin-Plate-price1{
+  color: var(--maincolor);
+  font-size: 24px;
+}
+.marin-Plate-price2{
+  color: #9CA3AF;
+font-size: 24px;
+}
+
+
+.marin-Plate-color {
+margin-top: 30px;
+}
+.marin-Plate-color button{
+padding: 9px;
+padding-left: 11px;
+
+}
+.marin-Plate-color h2{
+  font-family: var(--mainfont);
+  color:#3A3845 ;
+  font-size: 14px;
+}
+.marin-Plate-color1{
+height: 10px;
+width: 10px;
+border-radius:0 ;
+  background-color: #A1B8BE;
+}
+
+.marin-Plate-color2{
+
+  background-color: #FFFFFF;
+}
+
+.marin-Plate-color3{
+  border:none;
+  background-color: #C88242;
+}
+.marin-Plate-color4{
+  border:none;
+  background-color: #212F39;
+}
+.marin-Plate-color5{
+  border:none;
+  background-color: #DCB9A8;
+}
+.marin-Plate-color6{
+  border:none;
+  background-color: #A7B2A3;
+}
+.marin-btn1 {
+  border-radius: 0;
+  width: 100%;
+  color: white;
+  background-color: var(--maincolor);
+  font-family: var(--mainfont);
+  text-transform: uppercase;
+}
+.marin-btn2 {
+  border-radius: 0;
+  width: 100%;
+  color: white;
+  background-color: var(--maincolor);
+   font-family: var(--mainfont);
+  text-transform: uppercase;
+}
+.marin-btn1:hover {
+border: none;
+  background-color:#937b68;
+
+}
+.marin-btn2:hover {
+  background-color:#937b68;
+  border: none;
+}
+.marin-btn3 {
+  border-radius: 0;
+
+}
+.marin-Plate-btn{
+padding-top:30px;
+
+}
+.marin-btn3 i{
+  color: white;
+}
+.marin-btn3 {
+  background-color: var(--maincolor);
+}
+.marin-btn3:hover {
+  background-color:#937b68;
+  border: none;
+}
+
+.Share-icon ul{
+  list-style: none;
+  display: flex;
+     
+  gap: 15px;              
+  padding: 0;
+  margin: 0 auto;
+}
+.Share-icon i{
+color: #C69B7B;
+font-size: 18px;
+}
+
+.marin-Plate-Share{
+padding-top: 20px;
+}
+.marin-Plate-Share h2{
+font-size: 16px;
+color: var(--maincolor);
+}
