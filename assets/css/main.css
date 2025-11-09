@@ -1254,3 +1254,39 @@ padding: 10px;
 background-color:#827066;
 
 }
+.Chect-out{
+  padding-bottom: 80px;
+}
+.Chect-out h2{
+  font-size: 25px;
+  color: #464358;
+  font-family: var(--mainfont);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Chect-out input{
+margin-bottom: 30px;
+border: 1px solid #3e3b51;
+
+}
+.Chect-out label{
+font-family: var(--mainfont);
+color:  #3e3b51;
+font-size: 16px;
+}
+
+.Return-btn{
+  border-radius:0;
+background-color: var(--maincolor);
+color: white;
+margin-left: 20px;
+font-family: var(--mainfont);
+text-transform: uppercase;
+
+}
+.Return{
+  color: #3e3b51;
+  font-size: 16px;
+  font-family: var(--mainfont);
+  margin-top: 20px;
+}
