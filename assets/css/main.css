@@ -9,6 +9,10 @@
 }
 
 /* navbar */
+.navbar {
+    z-index: 9999;
+}
+
 .nav-icon{
     color:#595667;
 }
@@ -21,6 +25,8 @@
 .hero{
     background-image: url(./../img/hero-img/flat-lay-composition-different-sized-plates\ 1.webp);
     background-size: cover;
+
+   
 }
   .hero-img {
     width: 100%;
@@ -30,14 +36,16 @@
 .hero-2{
     background-color: #827066;
     height: 100vh;
-    margin-left:140px;
-
+ 
+   margin-left:140px;
+ 
 }
 
 .hero-btn:hover{
     background-color:#b9ada6;
     color: aliceblue;
 }
+
 .hero-2 p{
     margin-top: 42px;
     margin-bottom:20px;
@@ -353,7 +361,7 @@ border:none;
     font-family: var(--mainfont);
     width:160px ;
     height: 41px;
-    margin-bottom:102px;
+  
 }
 .footer-btn:hover{
 color: #464358;
@@ -370,7 +378,7 @@ color: #464358;
   
     
   .footer-top-right{
-    padding-left:80px;
+
     padding-top:60px;
   }
   .footer-top-right1{
@@ -947,7 +955,7 @@ color: var(--maincolor);
 }
 .Shop-items-number {
   display: flex;
- 
+
   justify-content:right;
 align-items: center;
 text-align: center;
@@ -1290,3 +1298,46 @@ text-transform: uppercase;
   font-family: var(--mainfont);
   margin-top: 20px;
 }
+.Chect-right{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.Chect-right span{
+  color:#464358;
+}
+
+.Payment{
+  background-color: var(--maincolor);
+  padding: 20px;
+  margin-top: 40px;
+}
+.Payment2-2 input{
+width: 100%;
+  background-color: var(--maincolor);
+  color: white;
+  border-radius:0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.Payment1-2 img{
+ width: 36px;
+ height: 22px;
+}
+.Payment1 {
+display: flex;
+justify-content: space-between;
+}
+.Payment h1{
+font-size: 20px;
+font-family: var(--mainfont);
+text-transform: uppercase;
+color: white;
+}
+.Payment1-1 label{
+  color: white;
+}
+.Payment2-2  input{
+color: white;
+} 

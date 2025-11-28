@@ -37,18 +37,34 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">shop</a>
+                        <a class="nav-link" href="./shop.html">shop</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link " href="about.html">
                             About
                         </a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true">Contact </a>
+                        <a class="nav-link" aria-disabled="true" href="contact.html">Contact </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="./Chect-out.html">
+                            Chect out
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="./blog.html">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="./blog.html">
+                            Marin Plate
+                        </a>
                     </li>
                 </ul>
 
@@ -63,15 +79,13 @@
                         <a href="#"> <i class="fa-regular fa-heart nav-icon "></i> </a>
                     </li>
                     <li class="nav-item ">
-                        <a href="#"> <i class="fa-solid fa-cart-shopping nav-icon"></i></a>
+                        <a href="./cart.html"> <i class="fa-solid fa-cart-shopping nav-icon"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- end navbar-->
-
-
     <!-- Chect out-->
     <div class="Marin-breadcrumb">
         <div class=" container">
@@ -88,87 +102,182 @@
 
     <section class="Chect-out">
         <div class="container">
-            <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 ">
-                <h2>Billing Details </h2>
-                <form>
-                    <div class="row ">
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
-                            <label >First Name *</label>
-                            <input type="text" placeholder="Samantha">
+            <div class="row">
+                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 ">
+                    <h2>Billing Details </h2>
+                    <form>
+                        <div class="row ">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
+                                <label>First Name *</label>
+                                <input type="text" placeholder="Samantha">
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
+                                <label>Last Name *</label>
+                                <input type="text" placeholder="Clarken">
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
+                                <label>Company</label>
+                                <input type="text" placeholder="Moon">
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
+                                <label>Country / Region *</label>
+                                <select>
+                                    <option>United States</option>
+                                    <option></option>
+                                    <option></option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 d-flex flex-column  gap-4">
+                                <label>Street Address *</label>
+                                <input type="text" placeholder="Address">
+                            </div>
+
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
+                                <label>Town / City *</label>
+                                <input type="text" placeholder="City">
+                            </div>
+
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
+                                <label class="form-label">State *</label>
+                                <select>
+                                    <option>New York</option>
+                                    <option></option>
+                                </select>
+                            </div>
+
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
+                                <label class="mt-4">ZIP Code *</label>
+                                <input type="text" placeholder="Zip code">
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
+                                <label class="mt-4">Phone *</label>
+                                <input type="text" placeholder="(123) 456 - 7890">
+                            </div>
+
+                            <div class="col-12  d-flex flex-column gap-4">
+                                <label>Email *</label>
+                                <input type="email" placeholder="example@youremail.com">
+                            </div>
+                            <div class="col-12 d-flex flex-column  gap-4">
+                                <label>Order notes</label>
+                                <textarea rows="3" class="mb-5" placeholder="Type your message here..."></textarea>
+                            </div>
+
+                            <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
+                                <a href="./cart.html" class=" text-decoration-none Return "> Return to cart </a>
+                            </div>
+
+                            <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12  ">
+                                <button class=" Return-btn ">
+                                    Proceed to checkout
+                                </button>
+                            </div>
                         </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
-                            <label>Last Name *</label>
-                            <input type="text" placeholder="Clarken">
+                    </form>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="Chect-out-right">
+                        <div class="Chect-right d-flex">
+                            <span>Product </span>
+                            <span>Subtotal </span>
                         </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
-                            <label >Company</label>
-                            <input type="text" placeholder="Moon">
+                        <hr>
+                        <div class="Chect-right d-flex">
+                            <span>Porcelain Dinner Plate (27cm) </span>
+                            <span>$59.00 </span>
                         </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
-                            <label >Country / Region *</label>
-                            <select>
-                                <option>United States</option>
-                                <option></option>
-                                <option></option>
-                            </select>
+                        <div class="Chect-right d-flex">
+                            <span>Ophelia Matte Natural Vase </span>
+                            <span>$168.00 </span>
+                        </div>
+                        <div class="Chect-right d-flex">
+                            <span>Luana Bowl </span>
+                            <span> $49.00</span>
+                        </div>
+                        <div class="Chect-right d-flex">
+                            <span>Subtotal </span>
+                            <span>$475.00 </span>
+                        </div>
+                        <div class="Chect-right d-flex">
+                            <span>Shipping </span>
+                            <span>$15.00 </span>
+                        </div>
+                        <div class="Chect-right d-flex">
+                            <span> </span>
+                            <span> </span>
+                        </div>
+                        <hr>
+                        <div class="Chect-right d-flex">
+                            <span>Total </span>
+                            <span>$490.00 </span>
                         </div>
 
-                        <div class="col-12 d-flex flex-column  gap-4">
-                            <label >Street Address *</label>
-                            <input type="text" placeholder="Address">
+                        <div class="Payment">
+                            <h1> Payment </h1>
+                            <div class="Payment1 d-flex">
+                                <div class="Payment1-1 ">
+                                    <label>
+                                        <input type="radio" name="payment" checked>
+                                        Credit card
+                                    </label>
+                                </div>
+                                <div class="Payment1-2 d-flex">
+                                    <img src="./assets/img/Chect out/Frame (1).png">
+                                    <img src="./assets/img/Chect out/Frame.png">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="Payment2">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="Payment2-2 mb-3">
+                                            <input type="text" placeholder="Card number">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class=" Payment2-2 mb-3">
+                                            <input type="text" placeholder="Name on card">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="Payment2-2  mb-3">
+                                            <input type="text" placeholder="Expiration date  (MM/YY)">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="Payment2-2  mb-3">
+                                            <input type="text" placeholder="Security code" >
+                                        </div>
+                                    </div>
+                                    <hr>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="Payment1-1 ">
+                                <label>
+                                    <input type="radio" name="payment" checked>
+                                    PayPal
+                                </label>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" placeholder="Place order">
+                            </div>
+
+
                         </div>
 
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
-                            <label >Town / City *</label>
-                            <input type="text"  placeholder="City">
-                        </div>
 
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
-                            <label class="form-label">State *</label>
-                            <select>
-                                <option>New York</option>
-                                <option></option>
-                            </select>
-                        </div>
-
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4"> <label
-                                class="mt-4">ZIP Code *</label>
-                            <input type="text" placeholder="Zip code">
-                        </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column gap-4">
-                            <label class="mt-4">Phone *</label>
-                            <input type="text" placeholder="(123) 456 - 7890">
-                        </div>
-
-                        <div class="col-12  d-flex flex-column gap-4">
-                            <label >Email *</label>
-                            <input type="email" placeholder="example@youremail.com">
-                        </div>
-                        <div class="col-12 d-flex flex-column  gap-4">
-                            <label >Order notes</label>
-                            <textarea rows="3" class="mb-5" placeholder="Type your message here..."></textarea>
-                        </div>
-
-                        <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
-                            <a href="./cart.html" class=" text-decoration-none Return "> Return to cart </a>
-                        </div>
-
-                        <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12  ">
-                            <button class=" Return-btn ">
-                                Proceed to checkout
-                            </button>
-                        </div>
                     </div>
-                </form>
-            </div>
+                </div>
 
-
-            <div class="col-4">
 
             </div>
-
-
-
         </div>
     </section>
 
